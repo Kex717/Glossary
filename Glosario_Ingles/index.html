@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programming Glossary</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 id="title">Glossary JS</h1>
+    <h5 id="select">Select what you want to listen to</h5>
+    <div class="input-group mb-3">
+      <input type="text" id="searchBar" class="form-control" placeholder="Search...">
+    </div>
+    <div id="letters" class="d-flex flex-wrap justify-content-center">
+      <button class="btn btn-outline-info m-1" onclick="showWords('A')">A</button>
+      <button class="btn btn-outline-info m-1" onclick="showWords('B')">B</button>
+      <button class="btn btn-outline-info m-1" onclick="showWords('C')">C</button>
+      <button class="btn btn-outline-info m-1" onclick="showWords('D')">D</button>
+      <button class="btn btn-outline-info m-1" onclick="showWords('E')">E</button>
+      <button class="btn btn-outline-info m-1" onclick="showWords('F')">F</button>
+      <button class="btn btn-outline-info m-1" onclick="showWords('G')">G</button>
+      <button class="btn btn-outline-info m-1" onclick="showWords('H')">H</button>
+      <button class="btn btn-outline-info m-1" onclick="showWords('I')">I</button>
+      <button class="btn btn-outline-info m-1" onclick="showWords('J')">J</button>
+      <button class="btn btn-outline-info m-1" onclick="showWords('K')">K</button>
+      <button class="btn btn-outline-info m-1" onclick="showWords('L')">L</button>
+      <button class="btn btn-outline-info m-1" onclick="showWords('M')">M</button>
+      <button class="btn btn-outline-info m-1" onclick="showWords('N')">N</button>
+      <button class="btn btn-outline-info m-1" onclick="showWords('O')">O</button>
+      <button class="btn btn-outline-info m-1" onclick="showWords('P')">P</button>
+      <button class="btn btn-outline-info m-1" onclick="showWords('Q')">Q</button>
+      <button class="btn btn-outline-info m-1" onclick="showWords('R')">R</button>
+      <button class="btn btn-outline-info m-1" onclick="showWords('S')">S</button>
+      <button class="btn btn-outline-info m-1" onclick="showWords('T')">T</button>
+      <button class="btn btn-outline-info m-1" onclick="showWords('U')">U</button>
+      <button class="btn btn-outline-info m-1" onclick="showWords('V')">V</button>
+      <button class="btn btn-outline-info m-1" onclick="showWords('W')">W</button>
+      <button class="btn btn-outline-info m-1" onclick="showWords('X')">X</button>
+      <button class="btn btn-outline-info m-1" onclick="showWords('Y')">Y</button>
+      <button class="btn btn-outline-info m-1" onclick="showWords('Z')">Z</button>
+    </div>
+    <ul id="words" class="list-group mt-3">
+    </ul>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://code.responsivevoice.org/responsivevoice.js?key=JTvbO9KO"></script>
+</body>
+</html>

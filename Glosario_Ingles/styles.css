@@ -1,0 +1,84 @@
+body {
+  background-image: url('./img/fondo1.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  padding: 0;
+  background-color: azure;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 28px 28px 28px 28px;
+  -moz-border-radius: 28px 28px 28px 28px;
+  -webkit-border-radius: 28px 28px 28px 28px;
+  border: 0px solid #000000;
+  background-color: rgba(110, 102, 80, 0.863);
+}
+
+#title{
+  text-align: center;
+  color: black;
+  font-weight: 800;
+}
+
+#select{
+  text-align: center;
+  color: black;
+  font-weight: 800;
+  margin-top: 15px;
+}
+
+#letters {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#letters button {
+  margin: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+#words {
+  list-style: none;
+  padding: 0;
+}
+
+#words .list-group-item {
+  margin-bottom: 30px;
+  box-shadow: -5px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  background-color: aliceblue;
+  border-radius: 86px 86px 86px 86px;
+  text-align: unset;
+  padding: 15px;
+}
+
+.word {
+  color: rgb(55, 215, 255);
+  font-weight: 800;
+}
+
+.definition {
+  color: black;
+}
+
+.btn-outline-info:hover {
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+.index{
+  color: rgba(238, 74, 178, 0.932);
+  font-weight: 800;
+}
+
+#searchBar{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: -5px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
